@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="d-flex justify-content-between rounded shadow-sm p-3 mb-5 bg-white rounded">
+    <h3 class="text-secondary mb-0">
+      You have {{ due_tasks }} tasks to complete
+    </h3>
+    <a href="{% url "task_manager:create-task" %}"
+       class="btn btn-success">
+      Create task
+    </a>
+  </div>
+  {% if tasks %}
+    <div class="row row-cols-3 g-4">
+      {% for task in tasks %}
+        <div class="col mb-3 mt-3">
+          <div class="card bg-light border-{% if task.is_completed %}success{% else %}danger{% endif %}">
+            <div class="card-header">
+              {{ task.task_type }}
+              <a style="float: right"
+                  href="{% url "task_manager:task-detail" pk=task.id %}"
+                 class="text-muted stretched-link">
+                Open
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{ task.name }}</h5>
+              <span class="card-text d-inline-block text-truncate"
+                    style="max-width: 100%">
+                {{ task.description }}
+              </span>
+            </div>
+            <div class="card-footer">
+              {{ task.deadline }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="h-100 d-flex align-items-center justify-content-center">
+      <h2 class="text-muted">No tasks!</h2>
+    </div>
+  {% endif %}
+{% endblock %}
