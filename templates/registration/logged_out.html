@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block sidebar %}{% endblock %}
+{% block account_info %}{% endblock %}
+{% block header %}{% endblock %}
+
+{% block content %}
+  <div class="h-100 d-flex align-content-center justify-content-center">
+    <div class="container-fluid">
+      <h2>You are logged out</h2>
+
+      <a href="{% url "login" %}"
+         class="btn btn-success link-to-page">
+        Login again
+      </a>
+    </div>
+  </div>
+{% endblock %}

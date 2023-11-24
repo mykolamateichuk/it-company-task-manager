@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block header %}{% endblock %}
+
+{% block content %}
+  <div class="container-fluid rounded shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="card bg-light">
+      <div class="card-header">
+        <h3>
+          {{ task.task_type }}
+          <span class="text-muted">
+            {% if task.deadline == current_date and not task.is_completed %}
+              <span>(Due: <span class="text-danger">Today</span>)</span>
+            {% elif task.deadline == next_date and not task.is_completed %}
+              <span>(Due: <span class="text-warning">Tomorrow</span>)</span>
+            {% else %}
+              <span>(Due: {{ task.deadline }})</span>
+            {% endif %}
+          </span>
+            <a style="float:right"
+               href="{% url "task_manager:delete-task" pk=task.id %}"
+               class="btn btn-danger">
+              Delete
+            </a>
+          {% if not task.is_completed %}
+            <a style="float:right"
+               href="{% url "task_manager:update-task" pk=task.id %}"
+               class="btn btn-primary mr-3">
+              Update
+            </a>
+          {% endif %}
+        </h3>
+      </div>
+      <div class="card-body">
+        <div class="card-title">
+          <h4>{{ task.name }}</h4>
+        </div>
+        <div class="card-text">
+          <strong>Description:</strong> {{ task.description }}
+        </div>
+      </div>
+    </div>
+
+    {% if not task.is_completed %}
+      <a href="{% url "task_manager:update-task-status" pk=task.id%}"
+         class="btn btn-success mt-3">
+        Mark as Done
+      </a>
+    {% endif %}
+
+  </div>
+{% endblock %}

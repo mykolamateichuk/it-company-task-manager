@@ -1,0 +1,9 @@
+<div class="container-fluid rounded shadow-sm p-3 mb-5 bg-white rounded">
+  Account:
+  <p class="text-secondary">
+    <a href="{% url "task_manager:worker-detail" pk=user.id %}">
+      {{ user.username }}
+    </a>
+  </p>
+  <a href="{% url "logout" %}">Logout</a>
+</div>
