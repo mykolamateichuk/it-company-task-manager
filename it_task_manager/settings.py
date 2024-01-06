@@ -5,7 +5,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "dqq1&f(6e^^+*!gq7#jeg%3pe46mlmqh7o%^993uko08=wz^#g"# os.environ["DJANGO_SECRET_KEY"]
+SECRET_KEY = os.environ["DJANGO_SECRET_KEY"]
 
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
