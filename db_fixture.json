@@ -1,1 +1,488 @@
-[{"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add worker", "content_type": 6, "codename": "add_worker"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change worker", "content_type": 6, "codename": "change_worker"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete worker", "content_type": 6, "codename": "delete_worker"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view worker", "content_type": 6, "codename": "view_worker"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add position", "content_type": 7, "codename": "add_position"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change position", "content_type": 7, "codename": "change_position"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete position", "content_type": 7, "codename": "delete_position"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view position", "content_type": 7, "codename": "view_position"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add task type", "content_type": 8, "codename": "add_tasktype"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change task type", "content_type": 8, "codename": "change_tasktype"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete task type", "content_type": 8, "codename": "delete_tasktype"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view task type", "content_type": 8, "codename": "view_tasktype"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add task", "content_type": 9, "codename": "add_task"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change task", "content_type": 9, "codename": "change_task"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete task", "content_type": 9, "codename": "delete_task"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view task", "content_type": 9, "codename": "view_task"}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "task_manager", "model": "worker"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "task_manager", "model": "position"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "task_manager", "model": "tasktype"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "task_manager", "model": "task"}}, {"model": "sessions.session", "pk": "kdjpenlxno7hu4c1jxzllzbk3ecibpje", "fields": {"session_data": ".eJxVjDsOwyAQBe9CHSHM3ynT-wxoYZfgJALJ2FWUu0dILpL2zcx7swDHXsLRaQsrsisz7PK7RUhPqgPgA-q98dTqvq2RD4WftPOlIb1up_t3UKCXUWcxK7IaDSnMJH1MymYPQCZJT17RlJ1N4N3kdYw4EwpnHWgwUUsp2OcLEB84oQ:1r6DrM:pIKUlXuUvimsRPEcdA_qP_lE_ZmPzH3Ad8JxZUnME3k", "expire_date": "2023-12-07T17:51:28.138Z"}}, {"model": "task_manager.tasktype", "pk": 1, "fields": {"name": "New Feature"}}, {"model": "task_manager.tasktype", "pk": 2, "fields": {"name": "Bug"}}, {"model": "task_manager.tasktype", "pk": 3, "fields": {"name": "Breaking change"}}, {"model": "task_manager.tasktype", "pk": 4, "fields": {"name": "Refactoring"}}, {"model": "task_manager.tasktype", "pk": 5, "fields": {"name": "QA"}}, {"model": "task_manager.position", "pk": 1, "fields": {"name": "Project Manager"}}, {"model": "task_manager.position", "pk": 2, "fields": {"name": "Developer"}}, {"model": "task_manager.position", "pk": 3, "fields": {"name": "Designer"}}, {"model": "task_manager.position", "pk": 4, "fields": {"name": "QA"}}, {"model": "task_manager.position", "pk": 5, "fields": {"name": "DevOps"}}, {"model": "task_manager.worker", "pk": 1, "fields": {"password": "pbkdf2_sha256$600000$HlTpCznvkkqF7eOx2CGKbg$X48bwwOrP3eU97t9gD5DCU4jmhtzf1FfkYRANKi197k=", "last_login": "2023-11-22T17:37:26.183Z", "is_superuser": false, "username": "mykolamateichuk", "first_name": "Mykola", "last_name": "Mateichuk", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-11-22T11:02:46.893Z", "position": 1, "groups": [], "user_permissions": []}}, {"model": "task_manager.worker", "pk": 2, "fields": {"password": "pbkdf2_sha256$600000$kQbnLMBlpcpZXYIfaNLPbj$dfDEAeIrhuBbgBA24yRHcF75+0KVtrGtRn22ZcTSwLI=", "last_login": "2023-11-23T17:49:22.626Z", "is_superuser": false, "username": "vasyapetrenko", "first_name": "Vasya", "last_name": "Petrenko", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-11-22T16:23:47.033Z", "position": 2, "groups": [], "user_permissions": []}}, {"model": "task_manager.worker", "pk": 3, "fields": {"password": "pbkdf2_sha256$600000$BCylJf8VlXgoGFCmqSvHPS$m3QwV7zjEybXXEz1+DvaPFuUeNyWVjLuUWANPvZ/gqY=", "last_login": null, "is_superuser": false, "username": "petrovasylenko", "first_name": "Petro", "last_name": "Vasylenko", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-11-22T16:30:12.788Z", "position": 3, "groups": [], "user_permissions": []}}, {"model": "task_manager.worker", "pk": 4, "fields": {"password": "pbkdf2_sha256$600000$0cJhhDTuviGb2Ze4V0tvVq$4wr2Sv+wGwDFfwJgmx0IXV1bzMIbMt6yEb07lEbx4Y8=", "last_login": "2023-11-23T17:50:37.009Z", "is_superuser": false, "username": "sanyaivaniuta", "first_name": "Sanya", "last_name": "Ivaniuta", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-11-22T16:32:01.580Z", "position": 4, "groups": [], "user_permissions": []}}, {"model": "task_manager.worker", "pk": 5, "fields": {"password": "pbkdf2_sha256$600000$cQ8GJL97nMJ435DHtRpWtV$NUyNgCHhVkERqH9BJcHo2uYp7goADKkTkvDlDxBCYFQ=", "last_login": "2023-11-23T17:51:28.133Z", "is_superuser": false, "username": "ivankazan", "first_name": "Ivan", "last_name": "Kazantsev", "email": "", "is_staff": false, "is_active": true, "date_joined": "2023-11-22T16:32:43.119Z", "position": 5, "groups": [], "user_permissions": []}}, {"model": "task_manager.task", "pk": 9, "fields": {"name": "Design a website header", "description": "Make a really nice and beautiful design of a website header.", "deadline": "2023-11-26", "is_completed": false, "task_type": 1, "assignees": [3]}}, {"model": "task_manager.task", "pk": 10, "fields": {"name": "Make an entire project from scratch", "description": "In crafting a revolutionary project, the team must first define a visionary goal, weaving together creativity and feasibility. Collaborative brainstorming should spawn innovative ideas, each member contributing unique perspectives. Rigorous planning, with an emphasis on adaptability, charts the course, ensuring milestones align with the overarching vision. Assembling a diverse team with complementary skills fosters a dynamic environment, fueling the project's evolution. Effective communication becomes the project's lifeblood, fostering cohesion and agility. Iterative development, fueled by feedback loops, hones the project's edge. Rigorous testing guarantees robustness, while continuous refinement ensures relevance. The team's commitment to excellence propels the project towards realization, as each member contributes their expertise, passion, and resilience to sculpt a transformative masterpiece.", "deadline": "2024-01-01", "is_completed": false, "task_type": 3, "assignees": [1, 2, 3, 4, 5]}}, {"model": "task_manager.task", "pk": 11, "fields": {"name": "Make a website header", "description": "Make website header exactly like designer designed it.", "deadline": "2023-11-27", "is_completed": false, "task_type": 1, "assignees": [2, 4]}}, {"model": "task_manager.task", "pk": 12, "fields": {"name": "Deploy project", "description": "Deploy entire project!", "deadline": "2023-11-24", "is_completed": false, "task_type": 3, "assignees": [1, 4, 5]}}, {"model": "task_manager.task", "pk": 13, "fields": {"name": "Fix some bugs", "description": "You know, as always... Bugs - unhappy, no bugs - impossible.", "deadline": "2023-11-26", "is_completed": false, "task_type": 2, "assignees": [1, 2, 4]}}]
+[
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 4,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 4,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 4,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 4,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 5,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 5,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 5,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 5,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add worker",
+          "content_type": 6,
+          "codename": "add_worker"
+        }
+    },
+  {
+    "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change worker",
+            "content_type": 6,
+            "codename": "change_worker"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete worker",
+            "content_type": 6,
+            "codename": "delete_worker"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view worker",
+            "content_type": 6,
+            "codename": "view_worker"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add position",
+            "content_type": 7,
+            "codename": "add_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change position",
+            "content_type": 7,
+            "codename": "change_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete position",
+            "content_type": 7,
+            "codename": "delete_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view position",
+            "content_type": 7,
+            "codename": "view_position"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add task type",
+            "content_type": 8,
+            "codename": "add_tasktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change task type",
+            "content_type": 8,
+            "codename": "change_tasktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete task type",
+            "content_type": 8,
+            "codename": "delete_tasktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view task type",
+            "content_type": 8,
+            "codename": "view_tasktype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {"name": "Can add task", "content_type": 9, "codename": "add_task"}
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change task",
+            "content_type": 9,
+            "codename": "change_task"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete task",
+            "content_type": 9,
+            "codename": "delete_task"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {"name": "Can view task", "content_type": 9, "codename": "view_task"}
+    },
+    {
+        "model": "sessions.session",
+        "pk": "kdjpenlxno7hu4c1jxzllzbk3ecibpje",
+        "fields": {
+            "session_data": ".eJxVjDsOwyAQBe9CHSHM3ynT-wxoYZfgJALJ2FWUu0dILpL2zcx7swDHXsLRaQsrsisz7PK7RUhPqgPgA-q98dTqvq2RD4WftPOlIb1up_t3UKCXUWcxK7IaDSnMJH1MymYPQCZJT17RlJ1N4N3kdYw4EwpnHWgwUUsp2OcLEB84oQ:1r6DrM:pIKUlXuUvimsRPEcdA_qP_lE_ZmPzH3Ad8JxZUnME3k",
+            "expire_date": "2023-12-07T17:51:28.138Z"
+        }
+    },
+    {"model": "task_manager.tasktype", "pk": 1, "fields": {"name": "New Feature"}},
+    {"model": "task_manager.tasktype", "pk": 2, "fields": {"name": "Bug"}},
+    {"model": "task_manager.tasktype", "pk": 3, "fields": {"name": "Breaking change"}},
+    {"model": "task_manager.tasktype", "pk": 4, "fields": {"name": "Refactoring"}},
+    {"model": "task_manager.tasktype", "pk": 5, "fields": {"name": "QA"}},
+    {"model": "task_manager.position", "pk": 1, "fields": {"name": "Project Manager"}},
+    {"model": "task_manager.position", "pk": 2, "fields": {"name": "Developer"}},
+    {"model": "task_manager.position", "pk": 3, "fields": {"name": "Designer"}},
+    {"model": "task_manager.position", "pk": 4, "fields": {"name": "QA"}},
+    {"model": "task_manager.position", "pk": 5, "fields": {"name": "DevOps"}},
+    {"model": "task_manager.position", "pk": 6, "fields": {"name": "Hello"}},
+    {
+        "model": "task_manager.worker",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$HlTpCznvkkqF7eOx2CGKbg$X48bwwOrP3eU97t9gD5DCU4jmhtzf1FfkYRANKi197k=",
+            "last_login": "2023-11-22T17:37:26.183Z",
+            "is_superuser": false,
+            "username": "mykolamateichuk",
+            "first_name": "Mykola",
+            "last_name": "Mateichuk",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-11-22T11:02:46.893Z",
+            "position": 1,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "task_manager.worker",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$kQbnLMBlpcpZXYIfaNLPbj$dfDEAeIrhuBbgBA24yRHcF75+0KVtrGtRn22ZcTSwLI=",
+            "last_login": "2023-11-23T17:49:22.626Z",
+            "is_superuser": false,
+            "username": "vasyapetrenko",
+            "first_name": "Vasya",
+            "last_name": "Petrenko",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-11-22T16:23:47.033Z",
+            "position": 2,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "task_manager.worker",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$BCylJf8VlXgoGFCmqSvHPS$m3QwV7zjEybXXEz1+DvaPFuUeNyWVjLuUWANPvZ/gqY=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "petrovasylenko",
+            "first_name": "Petro",
+            "last_name": "Vasylenko",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-11-22T16:30:12.788Z",
+            "position": 3,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "task_manager.worker",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$0cJhhDTuviGb2Ze4V0tvVq$4wr2Sv+wGwDFfwJgmx0IXV1bzMIbMt6yEb07lEbx4Y8=",
+            "last_login": "2023-11-23T17:50:37.009Z",
+            "is_superuser": false,
+            "username": "sanyaivaniuta",
+            "first_name": "Sanya",
+            "last_name": "Ivaniuta",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-11-22T16:32:01.580Z",
+            "position": 4,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "task_manager.worker",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$cQ8GJL97nMJ435DHtRpWtV$NUyNgCHhVkERqH9BJcHo2uYp7goADKkTkvDlDxBCYFQ=",
+            "last_login": "2023-11-23T17:51:28.133Z",
+            "is_superuser": false,
+            "username": "ivankazan",
+            "first_name": "Ivan",
+            "last_name": "Kazantsev",
+            "email": "",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-11-22T16:32:43.119Z",
+            "position": 5,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "task_manager.task",
+        "pk": 9,
+        "fields": {
+            "name": "Design a website header",
+            "description": "Make a really nice and beautiful design of a website header.",
+            "deadline": "2023-11-26",
+            "is_completed": false,
+            "task_type": 1,
+            "assignees": [3]
+        }
+    },
+    {
+        "model": "task_manager.task",
+        "pk": 10,
+        "fields": {
+            "name": "Make an entire project from scratch",
+            "description": "In crafting a revolutionary project, the team must first define a visionary goal, weaving together creativity and feasibility. Collaborative brainstorming should spawn innovative ideas, each member contributing unique perspectives. Rigorous planning, with an emphasis on adaptability, charts the course, ensuring milestones align with the overarching vision. Assembling a diverse team with complementary skills fosters a dynamic environment, fueling the project's evolution. Effective communication becomes the project's lifeblood, fostering cohesion and agility. Iterative development, fueled by feedback loops, hones the project's edge. Rigorous testing guarantees robustness, while continuous refinement ensures relevance. The team's commitment to excellence propels the project towards realization, as each member contributes their expertise, passion, and resilience to sculpt a transformative masterpiece.",
+            "deadline": "2024-01-01",
+            "is_completed": false,
+            "task_type": 3,
+            "assignees": [1, 2, 3, 4, 5]
+        }
+    },
+    {
+        "model": "task_manager.task",
+        "pk": 11,
+        "fields": {
+            "name": "Make a website header",
+            "description": "Make website header exactly like designer designed it.",
+            "deadline": "2023-11-27",
+            "is_completed": false,
+            "task_type": 1,
+            "assignees": [2, 4]
+        }
+    },
+    {
+        "model": "task_manager.task",
+        "pk": 12,
+        "fields": {
+            "name": "Deploy project",
+            "description": "Deploy entire project!",
+            "deadline": "2023-11-24",
+            "is_completed": false,
+            "task_type": 3,
+            "assignees": [1, 4, 5]
+        }
+    },
+    {
+        "model": "task_manager.task",
+        "pk": 13,
+        "fields": {
+            "name": "Fix some bugs",
+            "description": "You know, as always... Bugs - unhappy, no bugs - impossible.",
+            "deadline": "2023-11-26",
+            "is_completed": false,
+            "task_type": 2,
+            "assignees": [1, 2, 4]
+        }
+    }
+]

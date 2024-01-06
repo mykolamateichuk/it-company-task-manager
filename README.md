@@ -1,6 +1,11 @@
 # IT Team Task Manager
 
 ## [Check it out!](https://it-company-task-manager-o7vu.onrender.com)
+Use these credentials:
+
+>*Login:* user
+> 
+>*Password:* 12345user
 
 ## How to install
 
@@ -42,11 +47,8 @@
     pip install -r requirements.txt
     ```
 
-7) Make migrations and migrate:
+7) Migrate:
 
-   ```
-   python manage.py makemigrations
-   ```
    ```
    python manage.py migrate
    ```

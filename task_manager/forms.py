@@ -1,7 +1,7 @@
 from django import forms
 from django.contrib.auth.forms import UserCreationForm
 
-from task_manager.models import Task, Worker
+from task_manager.models import Task, Worker, Position
 
 
 class DateInput(forms.DateInput):
@@ -38,18 +38,12 @@ class WorkerUpdateForm(forms.ModelForm):
                   "position"]
 
 
-POSITION_CHOICES = (
-    ("1", "Project Manager"),
-    ("2", "Developer"),
-    ("3", "Designer"),
-    ("4", "QA"),
-    ("5", "DevOps"),
-)
-
-
 class WorkerFilterForm(forms.Form):
     position = forms.ChoiceField(
-        choices=POSITION_CHOICES,
+        choices=(
+            (position.id, position.name)
+            for position in Position.objects.all()
+        ),
         required=False,
         initial="",
         label=""
